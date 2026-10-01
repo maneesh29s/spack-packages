@@ -109,7 +109,6 @@ class PyDistributed(PythonPackage):
         depends_on("py-tornado@6.0.3:", when="^python@3.8:")
         depends_on("py-tornado@5:", when="^python@:3.7")
 
-
         depends_on("py-urllib3@1.26.5:", when="@2025.7.0:2026.3.0")
         depends_on("py-urllib3@1.24.3:", when="@2023.4.1:2026.3.0")
         depends_on("py-urllib3", when="@2022.10.2:2026.3.0")
